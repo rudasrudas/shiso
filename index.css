@@ -37,7 +37,7 @@ header > div {
 }
 
 .content {
-    padding: 50px 300px;
+    padding: 50px 100px;
 }
 
 .search-selector {
@@ -45,11 +45,71 @@ header > div {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    align-items: flex-start;
 }
 
 .arrow {
     font-size: 40px !important;
     vertical-align: bottom;
+}
+
+.inline {
+    font-size: 30px !important;
+    vertical-align: bottom;
+}
+
+input.date {
+    margin-left: 50px;
+}
+
+button.search-btn {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.search-block {
+    display: flex;
+    flex-direction: column;  
+    gap: 35px;
+}
+
+.data-block {
+    border-radius: 15px;
+    background-color: rgb(247, 247, 247);
+    border: solid 2px rgb(204, 204, 204);
+    padding: 25px;
+    margin-bottom: 50px;
+}
+
+.reference-dimensions {
+    width: 200px;
+    height: auto;
+}
+
+.search-attributes {
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dim {
+    max-width: 120px;
+}
+
+.tops {
+    display: inline;
+}
+
+label {
+    font-size: 24px;
 }
