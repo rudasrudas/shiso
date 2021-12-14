@@ -1,6 +1,45 @@
-img{
+img {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50px;
+    width: 70px;
+    height: 70px;
+    
 }
+
+.form{
+width: 35%;
+min-height: 35%;
+height: auto;
+background-color: #c7fcb9;
+padding: 25px;
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+
+.content{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.no-account{
+    text-align: center;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+  }
