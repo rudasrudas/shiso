@@ -43,3 +43,7 @@ a:link{
 a:hover {
     text-decoration: underline;
   }
+
+  label{
+      margin:50px 0px 5px;
+  }
