@@ -19,30 +19,6 @@ gap: 20px;
 
 }
 
-.login-button {
-    line-height: 200px;
-    width: 200px;
-    font-size: 10pt;
-    font-family: tahoma;
-    margin-top: 1px;
-    margin-right: 2px;
-    position: absolute;
-    top: 500;
-    right: 500px;
-}
-
-.create-account-btn {
-    line-height: 300px;
-    width: 300px;
-    font-size: 8pt;
-    font-family: tahoma;
-    margin-top: 1px;
-    margin-right: 2px;
-    position: absolute;
-    top: 500;
-    right: 500px;
-}
-
 .content{
     display:flex;
     justify-content: center;
