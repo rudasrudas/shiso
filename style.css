@@ -56,18 +56,29 @@ button.primary:active {
 
 /* INPUTS */
 input {
-    min-width: 200px;
     width: auto;
     height: 40px;
     padding: 5px 20px;
     font-size: 20px;
     border-radius: 7px;
     border: solid 2px gray;
-    /* margin: 5px 10px; */
+    margin: 0px;
+}
+
+input.address {
+    min-width: 200px;
 }
 
 input.date {
     min-width: 250px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 400;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+input.radio {
+    min-width: 50px;
 }

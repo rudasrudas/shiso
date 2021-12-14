@@ -17,19 +17,42 @@
             <p class="logo text">Shiso</p>
         </div>
         <div>
-            <span class="material-icons user">
+            <span class="material-icons user pointer">
                 account_circle
             </span>
         </div>
     </header>
     <div class="content">
-        <div class="search-selector">
-            <input type="text" class="address from">
-            <span class="material-icons arrow">arrow_forward</span>
-            <input type="text" class="address to">
-            <input type="date" class="date">
+        <div class="search-block data-block">
+            <div class="search-selector">
+                <input type="text" class="address from" placeholder="Where from?">
+                <span class="material-icons arrow">arrow_forward</span>
+                <input type="text" class="address to" placeholder="Where to?">
+                <input type="date" class="date">
+            </div>
+            <div class="search-attributes row">
+                <div class="row">
+
+                    <img class="reference-dimensions" src="https://seller.parknparcel.com/images/uploads/box_dimensions.png">
+                    <div class="row dims">
+                        <input type="text" placeholder="Width" class="width dim">
+                        <input type="text" placeholder="Length" class="length dim">
+                        <input type="text" placeholder="Height" class="height dim">
+                    </div>
+                </div>
+                <div class="column tops">
+                    <label for="hello">Package contents:</label><br>
+                    <input type="text">
+                </div>
+            </div>
+            <button class="primary search-btn">
+                <span class="material-icons inline">search</span>
+                Search
+            </button>
         </div>
-        <button class="primary">Search</button>
+        <div class="data-block">
+
+        </div>
     </div>
 </body>
 </html>
