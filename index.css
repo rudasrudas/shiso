@@ -113,3 +113,27 @@ button.search-btn {
 label {
     font-size: 24px;
 }
+
+.fare {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fare img {
+    max-height: 25px;
+    height: auto;
+}
+
+.fare * {
+    width: 8%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
