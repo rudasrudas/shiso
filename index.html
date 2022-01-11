@@ -8,6 +8,7 @@
     <link href="style.css" rel="stylesheet">
     <link href="index.css" rel="stylesheet">
 
+    <script src="index.js"></script>
     <title>SHISO</title>
 </head>
 <body>
@@ -17,11 +18,15 @@
             <p class="logo text">Shiso</p>
         </div>
         <div>
+            <p class="account-email"></p>
             <span class="material-icons user pointer">
                 account_circle
             </span>
         </div>
     </header>
+
+    <script>verifyUser();</script>
+
     <div class="content">
         <div class="search-block data-block">
             <div class="search-selector">
@@ -51,7 +56,28 @@
             </button>
         </div>
         <div class="data-block">
-
+            <table class="fares">
+                <tbody>
+                    <tr>
+                        <td>
+                            <img class="logo" src="https://www.gstatic.com/flights/airline_logos/70px/LO.png">
+                            <h4 class="company">Maersk</h4>
+                        </td>
+                        <td>
+                            <h4 class="from-to">Copenhagen - Stockholm</h4>
+                        </td>
+                        <td>
+                            <h4 class="time">15 Days</h4>
+                        </td>
+                        <td>
+                            <h4 class="price">DKK 174</h4>
+                        </td>
+                        <td>
+                            <span class="select-btn material-icons pointer">arrow_forward</span>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
     </div>
 </body>

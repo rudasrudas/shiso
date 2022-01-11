@@ -17,8 +17,8 @@ function getDetails() {
             
             users.forEach(user => {
                 if (email == user.email && password == user.password) {
-                    localStorage.setItem("email", user.email);
-                    localStorage.setItem("password", user.password);
+                    sessionStorage.setItem("email", user.email);
+                    sessionStorage.setItem("password", user.password);
                     window.location.href = "http://127.0.0.1:5500/";
                 } else{
                     console.log("failed");

@@ -8,12 +8,17 @@ header {
     padding: 10px 50px;
     background-color: #dff8d9;
     align-items: center;
+    position: fixed;
 }
 
 header > div {
     display: flex;
     align-items: center;
     gap: 20px;
+}
+
+.account-email {
+    font-size: 24px;
 }
 
 .logo {
@@ -37,9 +42,8 @@ header > div {
 }
 
 .content {
-    padding: 50px 100px;
+    padding: 125px 100px 50px;
 }
-
 .search-selector {
     display: flex;
     flex-direction: row;
@@ -66,17 +70,18 @@ button.search-btn {
     margin-top: 50px;
 }
 
-.search-block {
+.data-block.search-block {
     display: flex;
     flex-direction: column;  
     gap: 35px;
+    padding: 25px;
 }
 
 .data-block {
     border-radius: 15px;
     background-color: rgb(247, 247, 247);
     border: solid 2px rgb(204, 204, 204);
-    padding: 25px;
+    padding: 15px;
     margin-bottom: 50px;
 }
 
@@ -111,5 +116,39 @@ button.search-btn {
 }
 
 label {
-    font-size: 24px;
+    font-size:  24px;
+}
+
+.fares {
+    width: 100%;
+}
+
+.fares tbody {
+    width: 100%;
+}
+
+.fares tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fares td {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.fares td > * {
+    font-weight: 300;
+}
+
+.select-btn {
+    font-size: 30px;
 }
