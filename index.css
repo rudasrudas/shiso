@@ -129,6 +129,10 @@ label {
 
 .fares tr {
     width: 100%;
+    font-size: 24px;
+}
+
+.fare {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -151,4 +155,19 @@ label {
 
 .select-btn {
     font-size: 30px;
+.fare img {
+    max-height: 25px;
+    height: auto;
+}
+
+.fare * {
+    width: 8%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.hide {
+    display: none;
 }
