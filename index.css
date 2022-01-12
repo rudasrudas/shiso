@@ -1,0 +1,173 @@
+header {
+    width: 100%;
+    min-height: 50px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+    background-color: #dff8d9;
+    align-items: center;
+    position: fixed;
+}
+
+header > div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.account-email {
+    font-size: 24px;
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+}
+
+.logo.text {
+    color: #253a1a;
+    font-size: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: -2px;
+    font-style: italic;
+}
+
+.user {
+    font-size: 40px;
+    color: #162210;
+}
+
+.content {
+    padding: 125px 100px 50px;
+}
+.search-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    font-size: 40px !important;
+    vertical-align: bottom;
+}
+
+.inline {
+    font-size: 30px !important;
+    vertical-align: bottom;
+}
+
+input.date {
+    margin-left: 50px;
+}
+
+button.search-btn {
+    align-self: center;
+    margin-top: 50px;
+}
+
+.data-block.search-block {
+    display: flex;
+    flex-direction: column;  
+    gap: 35px;
+    padding: 25px;
+}
+
+.data-block {
+    border-radius: 15px;
+    background-color: rgb(247, 247, 247);
+    border: solid 2px rgb(204, 204, 204);
+    padding: 15px;
+    margin-bottom: 50px;
+}
+
+.reference-dimensions {
+    width: 200px;
+    height: auto;
+}
+
+.search-attributes {
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dim {
+    max-width: 120px;
+}
+
+.tops {
+    display: inline;
+}
+
+label {
+    font-size:  24px;
+}
+
+.fares {
+    width: 100%;
+}
+
+.fares tbody {
+    width: 100%;
+}
+
+.fares tr {
+    width: 100%;
+    font-size: 24px;
+}
+
+.fare {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fares td {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+
+}
+
+.fares td > * {
+    font-weight: 300;
+}
+
+.select-btn {
+    font-size: 30px;
+.fare img {
+    max-height: 25px;
+    height: auto;
+}
+
+.fare * {
+    width: 8%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
